@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data files
+data/raw/
+data/interim/
+data/processed/
+*.csv
+*.csv.gz
+*.parquet
+*.duckdb
+*.db
+
+# Reports generated files
+reports/figures/
+reports/data_quality/
+
+# System files
+.DS_Store
+Thumbs.db
