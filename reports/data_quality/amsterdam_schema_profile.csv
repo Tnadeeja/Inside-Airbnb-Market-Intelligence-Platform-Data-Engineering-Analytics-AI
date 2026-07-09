@@ -1,0 +1,127 @@
+dataset_name,column_name,data_type,non_null_count,null_count,null_percentage,unique_count,sample_values
+detailed_listings,id,int64,10369,0,0.0,10369,28871 | 29051 | 44129 | 44391 | 48373
+detailed_listings,listing_url,str,10369,0,0.0,10369,https://www.airbnb.com/rooms/28871 | https://www.airbnb.com/rooms/29051 | https://www.airbnb.com/rooms/44129 | https://www.airbnb.com/rooms/44391 | https://www.airbnb.com/rooms/48373
+detailed_listings,scrape_id,int64,10369,0,0.0,1,20260615212022
+detailed_listings,last_scraped,str,10369,0,0.0,3,2026-06-16 | 2026-06-24 | 2026-06-15
+detailed_listings,source,str,10369,0,0.0,2,previous scrape | city scrape
+detailed_listings,name,str,10369,0,0.0,10076,Comfortable double room | Comfortable single / double room | Luxury design with canal view | Quiet 2-bedroom Amsterdam city centre apartment | Cozy family home in Amsterdam South
+detailed_listings,description,str,9919,450,4.34,9640,"Basic bedroom in the center of Amsterdam. | This room can also be rented as a single or a small double<br /><br />Also a cat lives here | Welcome to my little gem<br /><br />Cozy, bright and romantic one bedroom apartment on the first floor of a three story house in the center, right on one of the most beautiful canals in Amsterdam. | Guests greatly appreciate the unique location of the apartment. It is located in a very quiet part of the city centre whilst only 1,5km away from central station. A bus takes you there directly in just five minutes. Restaurants, bars, musea, the Amsterdam Zoo and the popular citypark Marineterrein are just around the corner. The apartment itself is very well isolated so you can sleep in silence. The large private terrace provides you, directly from the kitchen, a nice outdoor space! Have a look! | Charming modern apartment in the quiet and green Southern part of Amsterdam, surrounded by trees and parks. Ideal for family stay as there are also playgrounds for children in the neighbourhood. <br />Minimum stay 7 days.<br />City center is about 15 minutes away by public transport or bicycle where you can find amazing and the best Amsterdam restaurants and famous museums."
+detailed_listings,neighborhood_overview,float64,0,10369,100.0,0,
+detailed_listings,picture_url,str,10369,0,0.0,10315,https://a0.muscache.com/pictures/160889/362340f7_original.jpg | https://a0.muscache.com/pictures/162009/bd6be2f8_original.jpg | https://a0.muscache.com/pictures/hosting/Hosting-44129/original/956f8b2f-8203-4d88-b179-3d9ad860dfd1.jpeg | https://a0.muscache.com/pictures/97741545/39000c13_original.jpg | https://a0.muscache.com/pictures/miso/Hosting-48373/original/ee2d14f7-27cb-46e9-b623-15e1080725e5.jpeg
+detailed_listings,host_id,int64,10369,0,0.0,9104,124245 | 187728 | 194779 | 220434 | 225987
+detailed_listings,host_url,str,10369,0,0.0,9104,https://www.airbnb.com/users/show/124245 | https://www.airbnb.com/users/show/187728 | https://www.airbnb.com/users/show/194779 | https://www.airbnb.com/users/show/220434 | https://www.airbnb.com/users/show/225987
+detailed_listings,host_profile_id,float64,10227,142,1.37,9067,1.462510208428039e+18 | 1.4625121252931446e+18 | 1.4625123369036503e+18 | 1.4625130029351258e+18 | 1.4625131522578511e+18
+detailed_listings,host_profile_url,str,10232,137,1.32,9076,https://www.airbnb.com/users/profile/1462510208428038971 | https://www.airbnb.com/users/profile/1462512125293144456 | https://www.airbnb.com/users/profile/1462512336903650281 | https://www.airbnb.com/users/profile/1462513002935125765 | https://www.airbnb.com/users/profile/1462513152257851081
+detailed_listings,host_name,str,10227,142,1.37,3793,Edwin | Tanya | Jan | Vesna & Misha | Joanna & MP
+detailed_listings,host_since,float64,0,10369,100.0,0,
+detailed_listings,hosts_time_as_user_years,float64,10227,142,1.37,18,16.0 | 15.0 | 14.0 | 13.0 | 12.0
+detailed_listings,hosts_time_as_user_months,float64,10227,142,1.37,12,1.0 | 10.0 | 9.0 | 8.0 | 6.0
+detailed_listings,hosts_time_as_host_years,float64,10227,142,1.37,16,15.0 | 10.0 | 14.0 | 11.0 | 13.0
+detailed_listings,hosts_time_as_host_months,float64,10227,142,1.37,12,5.0 | 11.0 | 3.0 | 2.0 | 0.0
+detailed_listings,host_location,str,8997,1372,13.23,222,"Amsterdam, The Netherlands | Amsterdam, Netherlands | Haarlem, Netherlands | Aerdenhout, Netherlands | De Pijp, The Netherlands"
+detailed_listings,host_about,str,5410,4959,47.83,4567,"Hi | I am little bit of a nomad. Born in Belarus, raised in Canada, converted to Europe in London and finally settled in magical Amsterdam. Recently opened a little bar in the Jordaan and said goodbye to my job in finance to enjoy creating things a little more.
+
+I like to enjoy life and constantly find myself admiring buildings & decor and doing some tasteful travelling. I travel frequently for business and pleasure so either my flat is available or I am looking for somewhere to stay myself | Love to travel while hosting and to host while travelling! | Joanna is from London and MP is from Amsterdam. We have a lot to thank travel and hospitality for. We fell in love at first sight when Joanna went to Amsterdam to review boutique hotels and walked into the one MP was running. The rest, as they say, is history. These days MP is a professional pianist and Joanna is the distributor of Micro scooters for the Netherlands and has a store across the street from the house. In 2006 we bought our house from an old lady who had lived in it for 38 years. We have completely renovated it and now live here very happily with our two daughters. We love to travel, we love music and we love good food. We also really love Amsterdam! We can tip you off about local hangouts that you have to live here to know about and all the highlights that you really ought to see whilst you're here. This is the best area of the city to live in, that's why we picked it. Everything we need is right on our doorstep, we hardly ever have to leave our 'hood. You'll love it here too! | An independent professional living and working in Amsterdam. Like to meet new people and help them to get around. Love culture, art, architecture and design. A very warm welcome to you all!"
+detailed_listings,host_response_time,float64,0,10369,100.0,0,
+detailed_listings,host_response_rate,float64,0,10369,100.0,0,
+detailed_listings,host_acceptance_rate,float64,0,10369,100.0,0,
+detailed_listings,host_is_superhost,str,10227,142,1.37,2,t | f
+detailed_listings,host_thumbnail_url,float64,0,10369,100.0,0,
+detailed_listings,host_picture_url,str,10227,142,1.37,9005,https://a0.muscache.com/im/pictures/user/9986bbdb-632f-42b5-a866-8e3307184977.jpg?aki_policy=profile_x_medium | https://a0.muscache.com/im/users/187728/profile_pic/1441737374/original.jpg?aki_policy=profile_x_medium | https://a0.muscache.com/im/users/194779/profile_pic/1436464796/original.jpg?aki_policy=profile_x_medium | https://a0.muscache.com/im/pictures/user/User-220434/original/6559512c-20fa-45ac-b45c-0e0eb9773c5f.jpeg?aki_policy=profile_x_medium | https://a0.muscache.com/im/pictures/user/User-225987/original/4af6a4dd-5b81-4045-ad69-8601c2c4fa91.jpeg?aki_policy=profile_x_medium
+detailed_listings,host_neighbourhood,float64,0,10369,100.0,0,
+detailed_listings,host_listings_count,float64,10227,142,1.37,39,2.0 | 6.0 | 1.0 | 4.0 | 3.0
+detailed_listings,host_total_listings_count,float64,0,10369,100.0,0,
+detailed_listings,host_verifications,float64,0,10369,100.0,0,
+detailed_listings,host_has_profile_pic,str,10227,142,1.37,2,t | f
+detailed_listings,host_identity_verified,str,10227,142,1.37,2,t | f
+detailed_listings,neighbourhood,float64,0,10369,100.0,0,
+detailed_listings,neighbourhood_cleansed,str,10369,0,0.0,22,Centrum-West | Centrum-Oost | Buitenveldert - Zuidas | IJburg - Zeeburgereiland | Zuid
+detailed_listings,neighbourhood_group_cleansed,float64,0,10369,100.0,0,
+detailed_listings,latitude,float64,10369,0,0.0,7560,52.36775 | 52.36584 | 52.38211 | 52.37168 | 52.32780775677816
+detailed_listings,longitude,float64,10369,0,0.0,8565,4.89092 | 4.89111 | 4.8863 | 4.91471 | 4.87680005722526
+detailed_listings,property_type,str,10369,0,0.0,59,Private room in rental unit | Private room in condo | Entire rental unit | Entire guest suite | Entire condo
+detailed_listings,room_type,str,10369,0,0.0,4,Private room | Entire home/apt | Hotel room | Shared room
+detailed_listings,accommodates,int64,10369,0,0.0,14,2 | 4 | 3 | 1 | 8
+detailed_listings,bathrooms,float64,5413,4956,47.8,13,1.0 | 1.5 | 2.0 | 2.5 | 3.0
+detailed_listings,bathrooms_text,str,10360,9,0.09,22,1 shared bath | 1.5 baths | 1 bath | 1 private bath | 2 baths
+detailed_listings,bedrooms,float64,9219,1150,11.09,11,1.0 | 2.0 | 3.0 | 4.0 | 10.0
+detailed_listings,beds,float64,5717,4652,44.86,22,2.0 | 4.0 | 1.0 | 3.0 | 5.0
+detailed_listings,amenities,str,10369,0,0.0,10009,"[""Heating"", ""Fire extinguisher"", ""Hot water"", ""Refrigerator"", ""Bed linens"", ""Private entrance"", ""Carbon monoxide alarm"", ""Host greets you"", ""Smoke alarm"", ""Hangers"", ""Shampoo"", ""Essentials"", ""Iron"", ""Hair dryer"", ""Lock on bedroom door"", ""Coffee maker"", ""Wifi"", ""Cleaning products""] | [""Heating"", ""Fire extinguisher"", ""Hot water"", ""Refrigerator"", ""Shower gel"", ""Bed linens"", ""Private entrance"", ""Carbon monoxide alarm"", ""Host greets you"", ""Smoke alarm"", ""Hangers"", ""Shampoo"", ""Essentials"", ""Iron"", ""Hair dryer"", ""Lock on bedroom door"", ""Coffee maker"", ""Wifi""] | [""Smoking allowed"", ""Extra pillows and blankets"", ""Stove"", ""Heating"", ""Refrigerator"", ""Shower gel"", ""Hair dryer"", ""Hot water"", ""Dishes and silverware"", ""Pets allowed"", ""Self check-in"", ""Dishwasher"", ""Bed linens"", ""Smoke alarm"", ""Shampoo"", ""Laundromat nearby"", ""Coffee maker: french press"", ""Lockbox"", ""Cooking basics"", ""Paid parking off premises"", ""Wifi"", ""Portable fans"", ""Washer"", ""Kitchen"", ""Oven"", ""Fire extinguisher"", ""First aid kit"", ""Freezer"", ""Iron"", ""Carbon monoxide alarm"", ""Hangers"", ""Essentials""] | [""Air conditioning"", ""Microwave"", ""Luggage dropoff allowed"", ""Extra pillows and blankets"", ""Stove"", ""Paid parking on premises"", ""Heating"", ""Refrigerator"", ""Shower gel"", ""Hair dryer"", ""Hot water"", ""Dishes and silverware"", ""Host greets you"", ""Private entrance"", ""Dishwasher"", ""Bed linens"", ""Smoke alarm"", ""Shampoo"", ""Cooking basics"", ""Paid parking off premises"", ""Patio or balcony"", ""Wifi"", ""TV with standard cable"", ""Washer"", ""Kitchen"", ""Oven"", ""Coffee maker"", ""Iron"", ""Carbon monoxide alarm"", ""Hangers"", ""Essentials""] | [""Drying rack for clothing"", ""Extra pillows and blankets"", ""Stove"", ""TV"", ""Cleaning products"", ""Dedicated workspace"", ""Refrigerator"", ""Hair dryer"", ""Hot water"", ""Dishes and silverware"", ""Hot water kettle"", ""Room-darkening shades"", ""Books and reading material"", ""Piano"", ""Bathtub"", ""Dishwasher"", ""Bed linens"", ""Smoke alarm"", ""Laundromat nearby"", ""Cooking basics"", ""Dining table"", ""Wifi"", ""Free dryer \u2013 In unit"", ""Outdoor playground"", ""Courtyard view"", ""Central heating"", ""Kitchen"", ""Oven"", ""Long term stays allowed"", ""Free washer \u2013 In unit"", ""Clothing storage: closet"", ""Trash compactor"", ""Wine glasses"", ""Coffee maker"", ""Iron"", ""Carbon monoxide alarm"", ""Hangers"", ""Essentials""]"
+detailed_listings,price,str,6377,3992,38.5,2709,$94.00 | $313.67 | $440.27 | $574.67 | $154.06
+detailed_listings,price_quote_checkin_date,str,6508,3861,37.24,285,2027-05-29 | 2026-07-16 | 2026-06-19 | 2026-07-07 | 2026-06-23
+detailed_listings,price_quote_checkout_date,str,6508,3861,37.24,313,2027-05-31 | 2026-07-19 | 2026-06-21 | 2026-07-10 | 2026-06-24
+detailed_listings,price_quote_total_price,float64,6377,3992,38.5,2354,188.0 | 941.0 | 880.53 | 1724.0 | 154.06
+detailed_listings,price_quote_price_per_night,float64,6377,3992,38.5,2709,94.0 | 313.67 | 440.27 | 574.67 | 154.06
+detailed_listings,price_quote_raw,str,6508,3861,37.24,6173,"{""quote"": {""taxes"": null, ""currency"": ""EUR"", ""date_match"": null, ""service_fee"": null, ""total_price"": ""188"", ""cleaning_fee"": null, ""is_available"": true, ""discount_amount"": null, ""price_per_night"": ""94"", ""nightly_subtotal"": ""187.15"", ""discounted_subtotal"": ""187.15"", ""raw_price_line_items"": [{""amount"": ""187.15"", ""item_type"": ""nightly_subtotal"", ""description"": ""2 nights x €93.58"", ""price_string"": ""€187.15""}, {""amount"": ""187.15"", ""item_type"": ""discounted_subtotal"", ""description"": ""Price after discount"", ""price_string"": ""€187.15""}], ""returned_checkin_date"": null, ""requested_checkin_date"": ""2027-05-29"", ""returned_checkout_date"": null, ""requested_checkout_date"": ""2027-05-31""}} | {""quote"": {""taxes"": null, ""currency"": ""EUR"", ""date_match"": null, ""service_fee"": null, ""total_price"": ""941"", ""cleaning_fee"": null, ""is_available"": true, ""discount_amount"": null, ""price_per_night"": ""313.6666666666666666666666667"", ""nightly_subtotal"": ""941.00"", ""discounted_subtotal"": ""941.00"", ""raw_price_line_items"": [{""amount"": ""941.00"", ""item_type"": ""nightly_subtotal"", ""description"": ""3 nights x €313.67"", ""price_string"": ""€941.00""}, {""amount"": ""941.00"", ""item_type"": ""discounted_subtotal"", ""description"": ""Price after discount"", ""price_string"": ""€941.00""}], ""returned_checkin_date"": null, ""requested_checkin_date"": ""2026-07-16"", ""returned_checkout_date"": null, ""requested_checkout_date"": ""2026-07-19""}} | {""quote"": {""taxes"": null, ""currency"": ""EUR"", ""date_match"": null, ""service_fee"": null, ""total_price"": ""880.53"", ""cleaning_fee"": null, ""is_available"": true, ""discount_amount"": ""180.40"", ""price_per_night"": ""440.265"", ""nightly_subtotal"": ""1060.93"", ""discounted_subtotal"": ""880.53"", ""raw_price_line_items"": [{""amount"": ""1060.93"", ""item_type"": ""nightly_subtotal"", ""description"": ""2 nights x €530.47"", ""price_string"": ""€1,060.93""}, {""amount"": ""-180.40"", ""item_type"": ""discount_amount"", ""description"": ""Special offer"", ""price_string"": ""-€180.40""}, {""amount"": ""880.53"", ""item_type"": ""discounted_subtotal"", ""description"": ""Price after discount"", ""price_string"": ""€880.53""}], ""returned_checkin_date"": null, ""requested_checkin_date"": ""2026-06-19"", ""returned_checkout_date"": null, ""requested_checkout_date"": ""2026-06-21""}} | {""quote"": {""taxes"": null, ""currency"": ""EUR"", ""date_match"": null, ""service_fee"": null, ""total_price"": ""1724"", ""cleaning_fee"": null, ""is_available"": true, ""discount_amount"": null, ""price_per_night"": ""574.6666666666666666666666667"", ""nightly_subtotal"": ""1723.18"", ""discounted_subtotal"": ""1723.18"", ""raw_price_line_items"": [{""amount"": ""1723.18"", ""item_type"": ""nightly_subtotal"", ""description"": ""3 nights x €574.39"", ""price_string"": ""€1,723.18""}, {""amount"": ""1723.18"", ""item_type"": ""discounted_subtotal"", ""description"": ""Price after discount"", ""price_string"": ""€1,723.18""}], ""returned_checkin_date"": null, ""requested_checkin_date"": ""2026-07-07"", ""returned_checkout_date"": null, ""requested_checkout_date"": ""2026-07-10""}} | {""quote"": {""taxes"": null, ""currency"": ""EUR"", ""date_match"": null, ""service_fee"": null, ""total_price"": ""154.06"", ""cleaning_fee"": null, ""is_available"": true, ""discount_amount"": null, ""price_per_night"": ""154.06"", ""nightly_subtotal"": ""154.06"", ""discounted_subtotal"": ""154.06"", ""raw_price_line_items"": [{""amount"": ""154.06"", ""item_type"": ""nightly_subtotal"", ""description"": ""1 night x €154.06"", ""price_string"": ""€154.06""}, {""amount"": ""154.06"", ""item_type"": ""discounted_subtotal"", ""description"": ""Price after discount"", ""price_string"": ""€154.06""}], ""returned_checkin_date"": null, ""requested_checkin_date"": ""2026-06-23"", ""returned_checkout_date"": null, ""requested_checkout_date"": ""2026-06-24""}}"
+detailed_listings,minimum_nights,float64,10366,3,0.03,48,1.0 | 3.0 | 2.0 | 6.0 | 4.0
+detailed_listings,maximum_nights,float64,10366,3,0.03,111,730.0 | 1125.0 | 365.0 | 21.0 | 3.0
+detailed_listings,minimum_minimum_nights,float64,10366,3,0.03,48,1.0 | 3.0 | 2.0 | 6.0 | 4.0
+detailed_listings,maximum_minimum_nights,float64,10366,3,0.03,54,2.0 | 5.0 | 3.0 | 1.0 | 14.0
+detailed_listings,minimum_maximum_nights,float64,10366,3,0.03,111,730.0 | 1125.0 | 365.0 | 21.0 | 3.0
+detailed_listings,maximum_maximum_nights,float64,10366,3,0.03,111,730.0 | 1125.0 | 365.0 | 21.0 | 3.0
+detailed_listings,minimum_nights_avg_ntm,float64,10369,0,0.0,183,2.0 | 5.0 | 3.0 | 1.0 | 11.7
+detailed_listings,maximum_nights_avg_ntm,float64,10369,0,0.0,378,730.0 | 1125.0 | 365.0 | 21.0 | 3.0
+detailed_listings,calendar_updated,float64,0,10369,100.0,0,
+detailed_listings,has_availability,str,10233,136,1.31,2,t | f
+detailed_listings,availability_30,int64,10369,0,0.0,31,1 | 0 | 3 | 8 | 12
+detailed_listings,availability_60,int64,10369,0,0.0,61,1 | 2 | 3 | 0 | 12
+detailed_listings,availability_90,int64,10369,0,0.0,91,1 | 2 | 3 | 0 | 28
+detailed_listings,availability_365,int64,10369,0,0.0,366,11 | 2 | 3 | 0 | 278
+detailed_listings,calendar_last_scraped,str,10369,0,0.0,3,2026-06-16 | 2026-06-24 | 2026-06-15
+detailed_listings,number_of_reviews,int64,10369,0,0.0,601,799 | 906 | 186 | 42 | 5
+detailed_listings,number_of_reviews_ltm,int64,10369,0,0.0,145,88 | 82 | 5 | 0 | 57
+detailed_listings,number_of_reviews_l30d,int64,10369,0,0.0,24,5 | 6 | 0 | 7 | 3
+detailed_listings,availability_eoy,int64,10369,0,0.0,200,2 | 3 | 0 | 115 | 181
+detailed_listings,number_of_reviews_ly,int64,10369,0,0.0,143,95 | 85 | 1 | 0 | 54
+detailed_listings,estimated_occupancy_l365d,int64,10369,0,0.0,84,255 | 39 | 0 | 109 | 8
+detailed_listings,estimated_revenue_l365d,float64,6377,3992,38.5,3852,23970.0 | 12233.0 | 112269.0 | 62639.0 | 39285.0
+detailed_listings,first_review,str,9346,1023,9.87,3102,2010-08-22 | 2011-03-16 | 2010-08-16 | 2010-09-16 | 2023-07-21
+detailed_listings,last_review,str,9346,1023,9.87,1504,2026-06-01 | 2026-04-30 | 2022-08-20 | 2024-04-28 | 2026-06-07
+detailed_listings,review_scores_rating,float64,9346,1023,9.87,123,4.86 | 4.82 | 4.88 | 4.71 | 5.0
+detailed_listings,review_scores_accuracy,float64,9346,1023,9.87,116,4.89 | 4.88 | 4.81 | 4.68 | 5.0
+detailed_listings,review_scores_cleanliness,float64,9345,1024,9.88,140,4.84 | 4.83 | 4.88 | 4.49 | 5.0
+detailed_listings,review_scores_checkin,float64,9346,1023,9.87,103,4.94 | 4.93 | 4.89 | 4.95 | 5.0
+detailed_listings,review_scores_communication,float64,9346,1023,9.87,107,4.94 | 4.93 | 4.89 | 4.9 | 5.0
+detailed_listings,review_scores_location,float64,9346,1023,9.87,107,4.93 | 4.88 | 4.95 | 4.68 | 4.6
+detailed_listings,review_scores_value,float64,9346,1023,9.87,146,4.83 | 4.79 | 4.59 | 4.5 | 5.0
+detailed_listings,license,str,10146,223,2.15,9032,0363 607B EA74 0BD8 2F6F | 03635399E87602900F47 | 0363 E76E F06A C1DD 172C | 0363 4A2B A6AD 0196 F684 | 0363 576A D827 5085 6B83
+detailed_listings,instant_bookable,float64,0,10369,100.0,0,
+detailed_listings,calculated_host_listings_count,int64,10369,0,0.0,20,2 | 4 | 1 | 3 | 6
+detailed_listings,calculated_host_listings_count_entire_homes,int64,10369,0,0.0,15,0 | 3 | 1 | 2 | 9
+detailed_listings,calculated_host_listings_count_private_rooms,int64,10369,0,0.0,14,2 | 1 | 0 | 4 | 3
+detailed_listings,calculated_host_listings_count_shared_rooms,int64,10369,0,0.0,5,0 | 1 | 10 | 2 | 6
+detailed_listings,reviews_per_month,float64,9346,1023,9.87,680,4.15 | 4.88 | 0.96 | 0.22 | 0.14
+calendar,listing_id,int64,3819725,0,0.0,10465,28871 | 570753 | 575603 | 575615 | 579851
+calendar,date,str,3819725,0,0.0,378,2026-06-16 | 2026-06-17 | 2026-06-18 | 2026-06-19 | 2026-06-20
+calendar,available,str,3819725,0,0.0,2,f | t
+calendar,minimum_nights,int64,3819725,0,0.0,56,2 | 1 | 4 | 5 | 3
+calendar,maximum_nights,int64,3819725,0,0.0,169,730 | 30 | 35 | 31 | 28
+detailed_reviews,listing_id,int64,545162,0,0.0,9432,28871 | 262394 | 29051 | 44129 | 274706
+detailed_reviews,id,int64,545162,0,0.0,545162,82539 | 21518912 | 26293687 | 32450201 | 32686822
+detailed_reviews,date,str,545162,0,0.0,5327,2010-08-22 | 2014-10-19 | 2015-02-09 | 2015-05-18 | 2015-05-20
+detailed_reviews,reviewer_id,int64,545162,0,0.0,523777,163752 | 20597737 | 20543694 | 26175845 | 29217313
+detailed_reviews,reviewer_name,str,545161,1,0.0,72308,Dave | Zuzana | Melissa | Franz | Maria
+detailed_reviews,comments,str,545125,37,0.01,528739,"Very nice place and people.  Great location!  Made our vacation very fun. | We were at the double room and I don't have anything wrong to say. The room was clean and cozy, house in the best location. Edwin is really nice, fun and ready to answer all questions. There is just one rule: don't let out the cat! Hope to come back sometime. | Edwin is friendly and humorous guide, his house is<br/>warm and sweet, I really enjoyed it when I stayed in Amsterdam. It's really convenient just located in central. | Nos ha gustado mucho el sitio de Edwin, esta increiblemente bien ubicado y es encantador, Edwin nos ha tratado muy bien y se duerme genial. Muy recomendable. Solo hay q tomar en cuenta que la escalera es un poco estrecha y que el baño es compartido. Pero vale la pena 100% !!!  | I didn't actually see Edwin because he was out of town on business. He left someone to meet me at the apartment. My overall experience was good. The main attractions are about a 15-20 minute walk. The apartment is surrounded by restaurants. The only thing I would say is that the wifi did not work for me, on the third floor. I had to go down to the first floor in order to use it. There was good communication before and after my stay. "
+summary_listings,id,int64,10465,0,0.0,10465,28871 | 29051 | 44129 | 44391 | 48373
+summary_listings,name,str,10465,0,0.0,10148,Comfortable double room | Comfortable single / double room | Luxury design with canal view | Quiet 2-bedroom Amsterdam city centre apartment | Cozy family home in Amsterdam South
+summary_listings,host_id,float64,10369,96,0.92,9104,124245.0 | 187728.0 | 194779.0 | 220434.0 | 225987.0
+summary_listings,host_profile_id,float64,10232,233,2.23,9076,1.462510208428039e+18 | 1.4625121252931446e+18 | 1.4625123369036503e+18 | 1.4625130029351258e+18 | 1.4625131522578511e+18
+summary_listings,host_name,str,10227,238,2.27,3793,Edwin | Tanya | Jan | Vesna & Misha | Joanna & MP
+summary_listings,neighbourhood_group,float64,0,10465,100.0,0,
+summary_listings,neighbourhood,str,10465,0,0.0,22,Centrum-West | Centrum-Oost | Buitenveldert - Zuidas | IJburg - Zeeburgereiland | Zuid
+summary_listings,latitude,float64,10465,0,0.0,7569,52.36775 | 52.36584 | 52.38211 | 52.37168 | 52.32780775677816
+summary_listings,longitude,float64,10465,0,0.0,8576,4.89092 | 4.89111 | 4.8863 | 4.91471 | 4.87680005722526
+summary_listings,room_type,str,10465,0,0.0,4,Private room | Entire home/apt | Hotel room | Shared room
+summary_listings,price,float64,6471,3994,38.17,842,94.0 | 314.0 | 440.0 | 575.0 | 154.0
+summary_listings,minimum_nights,float64,10462,3,0.03,48,1.0 | 3.0 | 2.0 | 6.0 | 4.0
+summary_listings,number_of_reviews,int64,10465,0,0.0,606,799 | 906 | 186 | 42 | 5
+summary_listings,last_review,str,9432,1033,9.87,1506,2026-06-01 | 2026-04-30 | 2022-08-20 | 2024-04-28 | 2026-06-07
+summary_listings,reviews_per_month,float64,9432,1033,9.87,703,4.15 | 4.88 | 0.96 | 0.22 | 0.14
+summary_listings,calculated_host_listings_count,float64,10369,96,0.92,20,2.0 | 4.0 | 1.0 | 3.0 | 6.0
+summary_listings,availability_365,int64,10465,0,0.0,366,11 | 2 | 3 | 0 | 278
+summary_listings,number_of_reviews_ltm,int64,10465,0,0.0,157,88 | 82 | 5 | 0 | 57
+summary_listings,license,str,10146,319,3.05,9032,0363 607B EA74 0BD8 2F6F | 03635399E87602900F47 | 0363 E76E F06A C1DD 172C | 0363 4A2B A6AD 0196 F684 | 0363 576A D827 5085 6B83
+summary_reviews,listing_id,int64,545162,0,0.0,9432,28871 | 29051 | 44129 | 262394 | 274706
+summary_reviews,date,str,545162,0,0.0,5327,2010-08-22 | 2014-10-19 | 2015-02-09 | 2015-05-18 | 2015-05-20
+neighbourhoods,neighbourhood_group,float64,0,22,100.0,0,
+neighbourhoods,neighbourhood,str,22,0,0.0,22,Bijlmer-Centrum | Bijlmer-Oost | Bos en Lommer | Buitenveldert - Zuidas | Centrum-Oost
