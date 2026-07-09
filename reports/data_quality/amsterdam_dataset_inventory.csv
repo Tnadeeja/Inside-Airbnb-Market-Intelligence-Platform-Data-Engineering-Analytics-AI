@@ -1,0 +1,7 @@
+dataset_name,file_name,rows,columns,memory_mb
+detailed_listings,listings.csv.gz,10369,90,28.0
+calendar,calendar.csv.gz,3819725,5,185.78
+detailed_reviews,reviews.csv.gz,545162,6,164.49
+summary_listings,listings.csv,10465,19,2.57
+summary_reviews,reviews.csv,545162,2,13.52
+neighbourhoods,neighbourhoods.csv,22,2,0.0
