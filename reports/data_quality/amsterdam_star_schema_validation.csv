@@ -1,0 +1,5 @@
+table_name,row_count
+dim_listing,10465
+dim_host,9105
+dim_neighbourhood,22
+fact_listing_market,10465

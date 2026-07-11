@@ -27,3 +27,16 @@ Daily price trends, weekend price premium, and direct calendar-based revenue can
 
 **Impact:**  
 Calendar-derived features will focus on availability rate, occupancy proxy, weekend/weekday availability, and stay-policy metrics.
+
+## Decision 003: Unknown Host Dimension Record
+
+**Decision:** Add an Unknown Host record to `dim_host` using `host_key = -1`.
+
+**Reasoning:**  
+During star schema validation, 96 fact rows had missing host_id values and therefore could not join to a known host dimension record.
+
+**Trade-off:**  
+The original host identity for these 96 listings remains unknown. However, assigning them to an Unknown Host record preserves all listing records and maintains warehouse referential consistency.
+
+**Impact:**  
+The fact table has no missing host keys, and records with incomplete host metadata remain visible for analysis instead of being dropped.
