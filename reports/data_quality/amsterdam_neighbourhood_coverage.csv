@@ -1,0 +1,5 @@
+check_name,check_value
+unique_listing_neighbourhoods,22
+unique_lookup_neighbourhoods,22
+listing_neighbourhoods_missing_in_lookup,0
+lookup_neighbourhoods_missing_in_listings,0

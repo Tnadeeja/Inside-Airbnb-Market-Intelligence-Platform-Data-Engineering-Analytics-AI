@@ -1,0 +1,9 @@
+check_name,check_value
+row_count,22
+unique_neighbourhoods,22
+missing_neighbourhoods,0
+missing_listing_count,0
+min_listing_count,39
+max_listing_count,1825
+missing_median_price,0
+missing_avg_occupancy_proxy,0
