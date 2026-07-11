@@ -1,0 +1,2 @@
+test_name,comparison,test_statistic,p_value,epsilon_squared
+Kruskal-Wallis,Price by room type,1839.3047030575235,0.0,0.284
