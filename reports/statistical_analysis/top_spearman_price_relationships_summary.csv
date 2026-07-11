@@ -1,0 +1,9 @@
+feature,sample_size,spearman_correlation,p_value,relationship_strength,statistically_significant
+accommodates,6377,0.525068,0.0,Strong,True
+bedrooms,5464,0.516669,0.0,Strong,True
+beds,5610,0.424246,0.0,Moderate,True
+reviews_per_month,5824,-0.37727,0.0,Moderate,True
+avg_reviews_per_year,5822,-0.375399,0.0,Moderate,True
+calculated_host_listings_count,6377,-0.321131,0.0,Moderate,True
+bathrooms,5311,0.313899,0.0,Moderate,True
+detailed_reviews_last_365d,6471,-0.29353,0.0,Weak,True
