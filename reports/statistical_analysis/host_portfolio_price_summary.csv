@@ -1,0 +1,5 @@
+host_portfolio_segment,listing_count,mean_price,median_price,min_price,max_price
+Large portfolio host,66,189.39,151.0,31.0,1170.0
+Medium portfolio host,441,276.4,209.0,37.0,1562.0
+Single-listing host,4811,371.11,318.0,37.0,11412.0
+Small portfolio host,1059,274.87,202.0,15.0,7200.0

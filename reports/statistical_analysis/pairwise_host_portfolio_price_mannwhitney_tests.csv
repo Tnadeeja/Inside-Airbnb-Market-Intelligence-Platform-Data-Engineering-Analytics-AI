@@ -1,0 +1,7 @@
+group_1,group_2,group_1_count,group_2_count,group_1_median_price,group_2_median_price,median_difference_group_1_minus_group_2,u_statistic,p_value,rank_biserial_correlation,p_value_bonferroni,significant_after_bonferroni
+Small portfolio host,Single-listing host,1059,4811,202.0,318.0,-116.0,1438780.0,0.0,-0.435202,0.0,True
+Small portfolio host,Medium portfolio host,1059,441,202.0,209.0,-7.0,227623.0,0.44123,-0.025209,1.0,False
+Small portfolio host,Large portfolio host,1059,66,202.0,151.0,51.0,48075.0,0.0,0.375655,2e-06,True
+Single-listing host,Medium portfolio host,4811,441,318.0,209.0,109.0,1478782.0,0.0,0.393992,0.0,True
+Single-listing host,Large portfolio host,4811,66,318.0,151.0,167.0,267582.5,0.0,0.685421,0.0,True
+Medium portfolio host,Large portfolio host,441,66,209.0,151.0,58.0,20265.5,0.0,0.392531,2e-06,True

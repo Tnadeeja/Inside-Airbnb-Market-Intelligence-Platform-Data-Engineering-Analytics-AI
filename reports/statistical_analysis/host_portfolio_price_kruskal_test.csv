@@ -1,0 +1,2 @@
+test_name,comparison,test_statistic,p_value,epsilon_squared
+Kruskal-Wallis,Price by host portfolio segment,685.3263487712834,3.190034004685825e-148,0.1071
