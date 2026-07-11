@@ -1,0 +1,6 @@
+source_dataset,source_column,target_dataset,target_column,relationship_type,business_meaning
+detailed_listings,id,calendar,listing_id,One listing to many calendar rows,Each listing can have daily availability and price records.
+detailed_listings,id,detailed_reviews,listing_id,One listing to many review rows,Each listing can receive multiple guest reviews.
+detailed_listings,id,summary_reviews,listing_id,One listing to many review-date rows,Each listing can have multiple review dates for time-based demand analysis.
+detailed_listings,host_id,derived_host_dimension,host_id,Many listings to one host,One host may manage one or many listings.
+detailed_listings,neighbourhood_cleansed,neighbourhoods,neighbourhood,Many listings to one neighbourhood,Each listing belongs to one neighbourhood group used for geographic analysis.

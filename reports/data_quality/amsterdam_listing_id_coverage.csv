@@ -1,0 +1,5 @@
+reference_table,reference_key,child_table,child_key,reference_unique_ids,child_unique_ids,child_ids_missing_in_reference,reference_ids_missing_in_child,coverage_percentage
+detailed_listings,id,summary_listings,id,10369,10465,96,0,99.08
+detailed_listings,id,calendar,listing_id,10369,10465,96,0,99.08
+detailed_listings,id,detailed_reviews,listing_id,10369,9432,86,1023,99.09
+detailed_listings,id,summary_reviews,listing_id,10369,9432,86,1023,99.09
