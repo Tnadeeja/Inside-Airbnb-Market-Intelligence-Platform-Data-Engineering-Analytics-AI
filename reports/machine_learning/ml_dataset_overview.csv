@@ -1,0 +1,8 @@
+metric,value
+total_source_rows,10465
+ml_training_rows,6471
+excluded_missing_or_invalid_price_rows,3994
+numeric_feature_count,24
+categorical_feature_count,7
+total_feature_count,31
+removed_fully_missing_feature_count,1
