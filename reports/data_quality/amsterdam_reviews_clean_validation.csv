@@ -1,0 +1,10 @@
+check_name,check_value
+row_count,545162
+column_count,8
+unique_review_ids,545162
+duplicate_review_ids,0
+missing_review_ids,0
+missing_listing_ids,0
+missing_review_dates,0
+missing_comments,37
+reviews_with_comments,545125
