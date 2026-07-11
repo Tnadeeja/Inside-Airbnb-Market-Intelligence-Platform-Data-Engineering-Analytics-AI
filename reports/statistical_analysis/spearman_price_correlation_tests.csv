@@ -1,0 +1,13 @@
+target,feature,sample_size,spearman_correlation,p_value,absolute_correlation,statistically_significant,relationship_strength
+price_numeric,accommodates,6377,0.525068,0.0,0.525068,True,Strong
+price_numeric,bedrooms,5464,0.516669,0.0,0.516669,True,Strong
+price_numeric,beds,5610,0.424246,0.0,0.424246,True,Moderate
+price_numeric,reviews_per_month,5824,-0.37727,0.0,0.37727,True,Moderate
+price_numeric,avg_reviews_per_year,5822,-0.375399,0.0,0.375399,True,Moderate
+price_numeric,calculated_host_listings_count,6377,-0.321131,0.0,0.321131,True,Moderate
+price_numeric,bathrooms,5311,0.313899,0.0,0.313899,True,Moderate
+price_numeric,detailed_reviews_last_365d,6471,-0.29353,0.0,0.29353,True,Weak
+price_numeric,review_scores_location,5740,0.275838,0.0,0.275838,True,Weak
+price_numeric,neighbourhood_median_price,6471,0.209124,0.0,0.209124,True,Weak
+price_numeric,availability_rate,6471,-0.053518,1.7e-05,0.053518,True,Very weak
+price_numeric,occupancy_proxy,6471,0.053518,1.7e-05,0.053518,True,Very weak
