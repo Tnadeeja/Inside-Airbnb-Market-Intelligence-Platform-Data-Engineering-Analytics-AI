@@ -1,0 +1,2 @@
+test_name,comparison,test_statistic,p_value,epsilon_squared
+Kruskal-Wallis,Review score rating by room type,566.562776937932,1.785602420297705e-122,0.0603

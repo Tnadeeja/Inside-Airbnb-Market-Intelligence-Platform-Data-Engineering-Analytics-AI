@@ -1,0 +1,7 @@
+group_1,group_2,group_1_count,group_2_count,group_1_median_review_score,group_2_median_review_score,median_difference_group_1_minus_group_2,u_statistic,p_value,rank_biserial_correlation,p_value_bonferroni,significant_after_bonferroni
+Private room,Entire home/apt,1662,7645,4.845,4.95,-0.105,4132133.5,0.0,-0.349577,0.0,True
+Private room,Hotel room,1662,18,4.845,4.83,0.015,15959.5,0.62445,0.066954,1.0,False
+Private room,Shared room,1662,21,4.845,4.6,0.245,26024.5,0.000105,0.49129,0.000631,True
+Entire home/apt,Hotel room,7645,18,4.95,4.83,0.12,97008.5,0.001635,0.409905,0.009808,True
+Entire home/apt,Shared room,7645,21,4.95,4.6,0.35,136590.0,0.0,0.701579,0.0,True
+Hotel room,Shared room,18,21,4.83,4.6,0.23,287.0,0.005981,0.518519,0.035884,True
