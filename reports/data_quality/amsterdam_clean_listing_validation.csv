@@ -1,0 +1,10 @@
+check_name,check_value
+row_count,10465
+column_count,22
+unique_listing_ids,10465
+duplicate_listing_ids,0
+missing_listing_ids,0
+missing_price_count,3994
+negative_price_count,0
+invalid_latitude_count,0
+invalid_longitude_count,0
