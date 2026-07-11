@@ -1,0 +1,6 @@
+host_portfolio_segment,listing_count,known_host_count,avg_price,median_price,avg_availability_rate,avg_occupancy_proxy,avg_review_score,total_reviews,total_revenue_proxy,avg_revenue_proxy
+Single-listing host,8509,8509,371.11,318.0,0.2085,0.7915,4.88,334320.0,396232619.0,82359.72
+Small portfolio host,1309,537,274.87,202.0,0.4396,0.5604,4.76,161660.0,47775711.0,45113.99
+Medium portfolio host,483,55,276.4,209.0,0.564,0.436,4.65,34771.0,17365435.0,39377.4
+Unknown Host,96,0,177.53,141.0,0.7595,0.2405,,9048.0,1314652.0,13985.66
+Large portfolio host,68,3,189.39,151.0,0.6113,0.3887,4.54,5363.0,1486297.0,22519.65
