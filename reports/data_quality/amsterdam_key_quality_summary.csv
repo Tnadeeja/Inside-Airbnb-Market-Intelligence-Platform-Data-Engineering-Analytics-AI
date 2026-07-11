@@ -1,0 +1,7 @@
+dataset_name,key_column,expected_role,total_rows,non_null_count,null_count,unique_count,duplicate_key_count
+detailed_listings,id,Primary key for detailed listings,10369,10369,0,10369,0
+summary_listings,id,Primary key for summary listings,10465,10465,0,10465,0
+calendar,listing_id,Foreign key referencing listings,3819725,3819725,0,10465,3809260
+detailed_reviews,listing_id,Foreign key referencing listings,545162,545162,0,9432,535730
+summary_reviews,listing_id,Foreign key referencing listings,545162,545162,0,9432,535730
+detailed_listings,host_id,Host identifier,10369,10369,0,9104,1265

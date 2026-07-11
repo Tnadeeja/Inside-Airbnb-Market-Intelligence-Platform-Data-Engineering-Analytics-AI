@@ -1,0 +1,15 @@
+dataset_name,field,rule,invalid_count,missing_or_unparseable_count
+detailed_listings,price,Price should be numeric and non-negative,0,3992
+summary_listings,price,Price should be numeric and non-negative,0,3994
+detailed_listings,latitude,Latitude should be between -90 and 90,0,0
+summary_listings,latitude,Latitude should be between -90 and 90,0,0
+detailed_listings,longitude,Longitude should be between -180 and 180,0,0
+summary_listings,longitude,Longitude should be between -180 and 180,0,0
+calendar,available,Availability should be t/f or boolean,0,0
+detailed_listings,review_scores_rating,Review score should be between 0 and 5,0,1023
+detailed_listings,review_scores_accuracy,Review score should be between 0 and 5,0,1023
+detailed_listings,review_scores_cleanliness,Review score should be between 0 and 5,0,1024
+detailed_listings,review_scores_checkin,Review score should be between 0 and 5,0,1023
+detailed_listings,review_scores_communication,Review score should be between 0 and 5,0,1023
+detailed_listings,review_scores_location,Review score should be between 0 and 5,0,1023
+detailed_listings,review_scores_value,Review score should be between 0 and 5,0,1023
