@@ -1,0 +1,10 @@
+check_name,check_value
+row_count,10465.0
+unique_listing_ids,10465.0
+missing_listing_ids,0.0
+min_calendar_days,365.0
+max_calendar_days,365.0
+avg_availability_rate,0.2615
+avg_occupancy_proxy,0.7385
+avg_weekend_availability_rate,0.2599
+avg_weekday_availability_rate,0.2621

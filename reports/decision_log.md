@@ -19,3 +19,16 @@ Some listings will not have detailed metadata such as amenities, descriptions, o
 
 **Impact:**  
 This approach improves coverage for market-level analysis while still allowing richer feature engineering for listings that have detailed metadata.
+
+## Decision 002: Calendar Dataset Usage
+
+**Decision:** Use the calendar dataset for availability and stay-policy analysis, not direct pricing analysis.
+
+**Reasoning:**  
+The Amsterdam calendar snapshot contains listing_id, date, available, minimum_nights, and maximum_nights. It does not contain price or adjusted_price fields.
+
+**Trade-off:**  
+Daily price trends, weekend price premium, and direct calendar-based revenue cannot be calculated from this calendar file.
+
+**Impact:**  
+Calendar-derived features will focus on calendar_days, available_days, unavailable_days, availability_rate, occupancy_proxy, weekend availability, weekday availability, and stay-policy metrics.
