@@ -1,0 +1,2 @@
+test_name,comparison,test_statistic,p_value,epsilon_squared
+Kruskal-Wallis,Occupancy proxy by room type,1039.6308279378377,4.548109153865267e-225,0.0991
