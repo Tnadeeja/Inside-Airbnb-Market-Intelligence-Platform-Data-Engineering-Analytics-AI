@@ -1,0 +1,7 @@
+metric,value
+training_rows,5176.0
+testing_rows,1295.0
+training_percentage,79.99
+testing_percentage,20.01
+input_feature_count_before_encoding,31.0
+processed_feature_count_after_encoding,121.0
