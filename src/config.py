@@ -20,13 +20,29 @@ INTERIM_DATA_DIR = DATA_DIR / "interim"
 EXTERNAL_DATA_DIR = DATA_DIR / "external"
 
 REPORTS_DIR = PROJECT_ROOT / "reports"
+DATA_QUALITY_REPORTS_DIR = REPORTS_DIR / "data_quality"
+ANALYTICS_OUTPUTS_DIR = REPORTS_DIR / "analytics_outputs"
+STATISTICAL_ANALYSIS_DIR = REPORTS_DIR / "statistical_analysis"
+MACHINE_LEARNING_REPORTS_DIR = REPORTS_DIR / "machine_learning"
+FIGURES_DIR = REPORTS_DIR / "figures"
 MODELS_DIR = PROJECT_ROOT / "models"
 WAREHOUSE_DIR = PROJECT_ROOT / "warehouse"
 NOTEBOOKS_DIR = PROJECT_ROOT / "notebooks"
 SQL_DIR = PROJECT_ROOT / "sql"
+DDL_DIR = PROJECT_ROOT / "ddl"
 
 DUCKDB_DATABASE_PATH = WAREHOUSE_DIR / "airbnb_market.duckdb"
 FINAL_MODEL_PATH = MODELS_DIR / "random_forest_price_prediction_model.joblib"
+
+RAW_FILES = {
+    "detailed_listings": RAW_CITY_DIR / "listings.csv.gz",
+    "calendar": RAW_CITY_DIR / "calendar.csv.gz",
+    "detailed_reviews": RAW_CITY_DIR / "reviews.csv.gz",
+    "summary_listings": RAW_CITY_DIR / "listings.csv",
+    "summary_reviews": RAW_CITY_DIR / "reviews.csv",
+    "neighbourhoods": RAW_CITY_DIR / "neighbourhoods.csv",
+    "neighbourhoods_geojson": RAW_CITY_DIR / "neighbourhoods.geojson",
+}
 
 
 # ---------------------------------------------------------------------
@@ -43,10 +59,16 @@ def create_project_directories() -> None:
         INTERIM_DATA_DIR,
         EXTERNAL_DATA_DIR,
         REPORTS_DIR,
+        DATA_QUALITY_REPORTS_DIR,
+        ANALYTICS_OUTPUTS_DIR,
+        STATISTICAL_ANALYSIS_DIR,
+        MACHINE_LEARNING_REPORTS_DIR,
+        FIGURES_DIR,
         MODELS_DIR,
         WAREHOUSE_DIR,
         NOTEBOOKS_DIR,
         SQL_DIR,
+        DDL_DIR,
     ]
 
     for directory in directories:
