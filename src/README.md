@@ -157,6 +157,23 @@ python -m src.warehouse.duckdb_builder
 
 - `ml/`  
   Machine learning dataset preparation, training, and evaluation.
+### `ml/train_price_model.py`
+
+Trains reusable machine learning models for Airbnb price prediction.
+
+Main steps:
+- Loads the final listing master table
+- Prepares numeric and categorical features
+- Excludes target leakage fields
+- Trains baseline, linear, ridge, random forest, and gradient boosting models
+- Compares model performance using MAE, RMSE, and R²
+- Saves the final Random Forest model package
+- Saves feature importance and residual analysis outputs
+
+Run from project root:
+
+```bash
+python -m src.ml.train_price_model
 
 - `utils/`  
   Shared helper functions.
