@@ -1,0 +1,2 @@
+check_name,listing_neighbourhood_count,lookup_neighbourhood_count,missing_in_lookup_count,unused_lookup_count,missing_in_lookup_values,unused_lookup_values
+neighbourhood_lookup_coverage,22,22,0,0,,

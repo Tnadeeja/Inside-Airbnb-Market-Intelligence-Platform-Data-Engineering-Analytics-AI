@@ -1,0 +1,14 @@
+check_name,dataset_name,status,issue_count,total_count,issue_percentage,notes
+missing_listing_id,summary_listings,PASS,0,10465,0.0,Listing ID should not be missing.
+duplicate_listing_id,summary_listings,PASS,0,10465,0.0,Listing ID should be unique in summary listings.
+missing_price,summary_listings,WARN,3994,10465,38.17,Missing prices reduce pricing and ML coverage.
+invalid_non_positive_price,summary_listings,PASS,0,10465,0.0,Price should be greater than zero when available.
+invalid_coordinates,summary_listings,PASS,0,10465,0.0,Latitude and longitude should be present and valid.
+invalid_availability_365,summary_listings,PASS,0,10465,0.0,Availability should be between 0 and 365.
+missing_listing_id,calendar,PASS,0,3819725,0.0,Calendar rows should have listing_id.
+missing_calendar_date,calendar,PASS,0,3819725,0.0,Calendar rows should have a date.
+invalid_available_values,calendar,PASS,0,3819725,0.0,Calendar availability should use expected boolean/t/f values.
+duplicate_listing_date,calendar,PASS,0,3819725,0.0,Each listing should have one row per date.
+missing_listing_id,detailed_reviews,PASS,0,545162,0.0,Review rows should have listing_id.
+duplicate_review_id,detailed_reviews,PASS,0,545162,0.0,Review ID should be unique.
+missing_review_comments,detailed_reviews,WARN,37,545162,0.01,Some reviews may not include written comments.

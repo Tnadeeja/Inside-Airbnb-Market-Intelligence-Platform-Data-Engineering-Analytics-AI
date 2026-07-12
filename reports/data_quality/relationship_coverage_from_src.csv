@@ -1,0 +1,4 @@
+related_dataset,related_unique_listing_ids,matched_listing_ids,unmatched_listing_ids,coverage_percentage
+calendar,10465,10465,0,100.0
+detailed_reviews,9432,9432,0,100.0
+summary_reviews,9432,9432,0,100.0
