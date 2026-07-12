@@ -274,26 +274,21 @@ if page == "Executive Overview":
     if market_overview.empty:
         show_missing_message("market_overview_from_src.csv")
     else:
-        # If a neighbourhood is selected, prefer neighbourhood-level summary for KPIs
+        # If a neighbourhood is selected, update only the available KPI values.
+        # Keep the base market overview row so KPI cards do not display N/A.
+        row = market_overview.iloc[0].to_dict()
         if neighbourhood != "All" and not neighbourhood_summary.empty:
             n_row = neighbourhood_summary[neighbourhood_summary["neighbourhood"] == neighbourhood]
             if not n_row.empty:
                 n_row = n_row.iloc[0]
-                # map neighbourhood summary fields into the same keys used by market_overview
-                row = {
-                    "total_listings": n_row.get("listing_count"),
-                    "total_known_hosts": None,
+                row.update({
+                    "total_listings": n_row.get("listing_count", row.get("total_listings")),
                     "total_neighbourhoods": 1,
-                    "median_listing_price": n_row.get("median_price"),
-                    "avg_availability_rate": n_row.get("avg_availability_rate"),
-                    "avg_occupancy_proxy": n_row.get("avg_occupancy_proxy"),
-                    "listings_with_reviews": None,
-                    "total_estimated_revenue_proxy": n_row.get("total_estimated_revenue_proxy"),
-                }
-            else:
-                row = market_overview.iloc[0]
-        else:
-            row = market_overview.iloc[0]
+                    "median_listing_price": n_row.get("median_price", row.get("median_listing_price")),
+                    "avg_availability_rate": n_row.get("avg_availability_rate", row.get("avg_availability_rate")),
+                    "avg_occupancy_proxy": n_row.get("avg_occupancy_proxy", row.get("avg_occupancy_proxy")),
+                    "total_estimated_revenue_proxy": n_row.get("total_estimated_revenue_proxy", row.get("total_estimated_revenue_proxy")),
+                })
 
         col1, col2, col3, col4 = st.columns(4)
 
@@ -351,15 +346,24 @@ elif page == "Room Type Insights":
         chart_data = room_type_summary.set_index("room_type")
 
         st.subheader("Listing Count by Room Type")
-        st.bar_chart(chart_data["listing_count"])
+        if not chart_data.empty and "listing_count" in chart_data.columns:
+            st.bar_chart(chart_data["listing_count"])
+        else:
+            st.info("No room type listing count data available.")
 
         if "median_price" in chart_data.columns:
             st.subheader("Median Price by Room Type")
-            st.bar_chart(chart_data["median_price"])
+            if not chart_data.empty:
+                st.bar_chart(chart_data["median_price"])
+            else:
+                st.info("No median price data available for room types.")
 
         if "avg_occupancy_proxy" in chart_data.columns:
             st.subheader("Average Occupancy Proxy by Room Type")
-            st.bar_chart(chart_data["avg_occupancy_proxy"])
+            if not chart_data.empty:
+                st.bar_chart(chart_data["avg_occupancy_proxy"])
+            else:
+                st.info("No occupancy proxy data available for room types.")
 
         st.markdown(
             """
@@ -397,7 +401,10 @@ elif page == "Neighbourhood Insights":
                 .head(top_n)
                 .set_index("neighbourhood")
             )
-            st.bar_chart(top_revenue["total_estimated_revenue_proxy"])
+            if not top_revenue.empty:
+                st.bar_chart(top_revenue["total_estimated_revenue_proxy"])
+            else:
+                st.info("No estimated revenue proxy data available.")
 
         if "listing_count" in neighbourhood_summary.columns:
             st.subheader("Top Neighbourhoods by Listing Count")
@@ -407,7 +414,10 @@ elif page == "Neighbourhood Insights":
                 .head(top_n)
                 .set_index("neighbourhood")
             )
-            st.bar_chart(top_supply["listing_count"])
+            if not top_supply.empty:
+                st.bar_chart(top_supply["listing_count"])
+            else:
+                st.info("No listing count data available.")
 
         if "median_price" in neighbourhood_summary.columns:
             st.subheader("Top Neighbourhoods by Median Price")
@@ -417,7 +427,10 @@ elif page == "Neighbourhood Insights":
                 .head(top_n)
                 .set_index("neighbourhood")
             )
-            st.bar_chart(top_price["median_price"])
+            if not top_price.empty:
+                st.bar_chart(top_price["median_price"])
+            else:
+                st.info("No median price data available.")
 
         st.info(
             """
@@ -446,7 +459,10 @@ elif page == "Host & Review Insights":
 
             if "host_portfolio_segment" in host_portfolio_summary.columns:
                 chart_data = host_portfolio_summary.set_index("host_portfolio_segment")
-                st.bar_chart(chart_data["listing_count"])
+                if not chart_data.empty:
+                    st.bar_chart(chart_data["listing_count"])
+                else:
+                    st.info("No host portfolio data available for charting.")
 
     with col2:
         st.subheader("Review Score Summary")
@@ -458,7 +474,10 @@ elif page == "Host & Review Insights":
 
             if "review_score_band" in review_score_summary.columns:
                 chart_data = review_score_summary.set_index("review_score_band")
-                st.bar_chart(chart_data["listing_count"])
+                if not chart_data.empty:
+                    st.bar_chart(chart_data["listing_count"])
+                else:
+                    st.info("No review score data available for charting.")
 
     st.markdown(
         """
@@ -499,14 +518,20 @@ elif page == "ML Price Prediction":
         if "model_name" in model_comparison.columns and "rmse" in model_comparison.columns:
             chart_data = model_comparison.set_index("model_name")
             st.subheader("RMSE by Model")
-            st.bar_chart(chart_data["rmse"])
+            if not chart_data.empty:
+                st.bar_chart(chart_data["rmse"])
+            else:
+                st.info("No model comparison RMSE data available.")
 
     if feature_importance.empty:
         show_missing_message("random_forest_feature_importance_from_src.csv")
     else:
         st.subheader("Top 15 Random Forest Feature Importances")
         top_features = feature_importance.head(15).set_index("feature")
-        st.bar_chart(top_features["importance"])
+        if not top_features.empty:
+            st.bar_chart(top_features["importance"])
+        else:
+            st.info("No feature importance data available.")
         st.dataframe(feature_importance.head(20), use_container_width=True)
 
     if residual_summary.empty:
