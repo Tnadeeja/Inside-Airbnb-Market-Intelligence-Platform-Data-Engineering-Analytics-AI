@@ -1,0 +1,15 @@
+metric,value
+raw_review_rows,545162.0
+cleaned_review_rows,545162.0
+review_metric_rows,9432.0
+unique_review_ids,545162.0
+duplicate_review_ids,0.0
+unique_listing_ids_with_reviews,9432.0
+missing_listing_ids,0.0
+missing_review_ids,0.0
+missing_review_dates,0.0
+missing_review_comments,37.0
+reviews_with_comments,545125.0
+reviews_last_365_days,94455.0
+max_reviews_for_single_listing,5603.0
+average_reviews_per_reviewed_listing,57.8
