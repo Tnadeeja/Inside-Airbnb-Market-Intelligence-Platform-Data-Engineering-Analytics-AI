@@ -1,0 +1,11 @@
+table_name,row_count
+listing_master_final,10465
+dim_listing,10465
+dim_host,9105
+dim_neighbourhood,22
+fact_listing_market,10465
+market_overview,1
+room_type_summary,4
+neighbourhood_summary,22
+host_portfolio_summary,5
+review_score_summary,5

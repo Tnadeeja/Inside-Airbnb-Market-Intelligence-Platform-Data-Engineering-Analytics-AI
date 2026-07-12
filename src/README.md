@@ -135,6 +135,25 @@ python -m src.transformation.listing_master_builder
 
 - `warehouse/`  
   DuckDB warehouse and star schema creation.
+  ### `warehouse/duckdb_builder.py`
+
+Builds the DuckDB analytical warehouse from the final listing master table.
+
+Main outputs:
+- `warehouse/airbnb_market.duckdb`
+- `listing_master_final`
+- `dim_listing`
+- `dim_host`
+- `dim_neighbourhood`
+- `fact_listing_market`
+- Reusable analytical summary tables
+- Exported analytics CSV outputs
+
+Run from project root:
+
+```bash
+python -m src.warehouse.duckdb_builder
+
 
 - `ml/`  
   Machine learning dataset preparation, training, and evaluation.

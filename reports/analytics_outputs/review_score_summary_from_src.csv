@@ -1,0 +1,6 @@
+review_score_band,listing_count,avg_price,median_price,avg_availability_rate,avg_occupancy_proxy,total_detailed_reviews,total_estimated_revenue_proxy
+Excellent,7047,356.29,309.0,0.2211,0.7789,345884.0,336075338.0
+Very good,1794,292.38,241.0,0.3018,0.6982,171054.0,67916253.0
+No rating,1119,389.79,286.0,0.3778,0.6222,9048.0,45524688.0
+Good,434,250.67,204.0,0.4136,0.5864,18741.0,12897782.0
+Below 4.0,71,465.57,212.0,0.4886,0.5114,435.0,1760653.0

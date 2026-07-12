@@ -1,0 +1,5 @@
+room_type,listing_count,avg_price,median_price,avg_availability_rate,avg_occupancy_proxy,total_detailed_reviews,total_estimated_revenue_proxy
+Entire home/apt,8489,394.62,331.0,0.2133,0.7867,221489.0,407899491.0
+Private room,1929,203.67,171.0,0.4612,0.5388,311510.0,55409327.0
+Hotel room,26,249.85,227.5,0.7564,0.2436,6169.0,623504.0
+Shared room,21,80.1,52.0,0.7769,0.2231,5994.0,242392.0
