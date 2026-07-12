@@ -1,0 +1,11 @@
+metric,value
+listing_master_rows,10465
+listing_master_columns,75
+unique_listing_ids,10465
+duplicate_listing_ids,0
+valid_price_rows,6471
+missing_or_invalid_price_rows,3994
+listings_with_calendar_metrics,10465
+listings_with_review_metrics,9432
+listings_with_detailed_features,10369
+neighbourhood_count,22
