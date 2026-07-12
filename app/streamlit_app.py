@@ -22,6 +22,76 @@ st.set_page_config(
     layout="wide",
 )
 
+# Custom styling for a premium, modern look (theme also set in .streamlit/config.toml)
+st.markdown(
+    """
+    <style>
+    /* Page background and font smoothing */
+    .stApp {
+        background: linear-gradient(180deg, #071019 0%, #051019 100%);
+        -webkit-font-smoothing: antialiased;
+    }
+
+    /* Sidebar styling */
+    section[data-testid="stSidebar"] {
+        background-color: #061017;
+        padding: 1.25rem 1rem;
+        border-right: 1px solid rgba(255,255,255,0.03);
+    }
+
+    /* Title styling */
+    .css-18e3th9 h1, .stTitle {
+        font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+        color: #FFD580;
+        letter-spacing: -0.5px;
+    }
+
+    /* Header and subheader */
+    h1, h2, h3 {
+        color: #E6EEF3;
+    }
+
+    /* KPI metrics: larger, spaced, and refined */
+    [data-testid="stMetricValue"] {
+        font-size: 2.6rem !important;
+        font-weight: 700 !important;
+        color: #FFFFFF !important;
+    }
+    [data-testid="stMetricLabel"] {
+        color: #B7C6D1 !important;
+    }
+
+    /* DataFrame container rounded cards */
+    .stDataFrame div[role="grid"] {
+        border-radius: 8px !important;
+        overflow: hidden;
+        background: rgba(255,255,255,0.02);
+    }
+
+    /* Sidebar selectbox focus */
+    .stSelectbox>div>div>div:nth-child(1) {
+        border-radius: 8px;
+    }
+
+    /* Improve spacing for blocks */
+    .block-container {
+        padding-top: 2rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-bottom: 2.5rem;
+    }
+
+    /* Buttons and controls accent */
+    button[kind="primary"] {
+        background-color: #FFB020 !important;
+        color: #081019 !important;
+        border: none !important;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True,
+)
+
 
 # ---------------------------------------------------------------------
 # Project paths
