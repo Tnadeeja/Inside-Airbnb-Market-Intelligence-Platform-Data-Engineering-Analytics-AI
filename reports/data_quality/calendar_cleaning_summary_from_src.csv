@@ -1,0 +1,12 @@
+metric,value
+raw_calendar_rows,3819725.0
+calendar_metric_rows,10465.0
+unique_listing_ids,10465.0
+missing_listing_ids,0.0
+missing_dates,0.0
+invalid_available_values,0.0
+duplicate_listing_date_rows,0.0
+minimum_calendar_days_per_listing,365.0
+maximum_calendar_days_per_listing,365.0
+average_availability_rate,0.2615
+average_occupancy_proxy,0.7385
