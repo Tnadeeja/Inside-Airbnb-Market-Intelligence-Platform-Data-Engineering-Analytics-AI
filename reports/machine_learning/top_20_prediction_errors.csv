@@ -1,0 +1,21 @@
+listing_id,listing_name,room_type,neighbourhood,host_portfolio_segment,price_numeric,bedrooms,bathrooms,beds,accommodates,review_scores_value,minimum_nights,actual_price,predicted_price,prediction_error,absolute_error
+307497,Historical sailing ship Amsterdam,Entire home/apt,Westerpark,Single-listing host,1455.0,10.0,2.5,26.0,16.0,4.47,2.0,1455.0,3033.65,-1578.65,1578.65
+15304003,Luxury houseboat Amsterdam Centre! (3BR 2BA 110m²),Entire home/apt,Centrum-Oost,Single-listing host,2477.0,3.0,2.0,6.0,4.0,4.7,1.0,2477.0,1048.12,1428.88,1428.88
+1451544541626218882,High-End Townhouse + Garden,Entire home/apt,Oud-Oost,Single-listing host,1887.0,2.0,2.0,2.0,4.0,,3.0,1887.0,615.61,1271.39,1271.39
+1579946614592850759,Stylish Furnished Room in Prime Location,Private room,De Baarsjes - Oud-West,Single-listing host,120.0,1.0,1.0,2.0,1.0,1.0,1.0,120.0,1204.94,-1084.94,1084.94
+1240514133420447631,"Luxurious Houseboat, City Center",Entire home/apt,Centrum-Oost,Single-listing host,1712.0,2.0,1.0,2.0,4.0,4.89,2.0,1712.0,654.02,1057.98,1057.98
+1044448,"Center, 2 storey cornerhouse, 4 BR, Canalview!",Entire home/apt,Oud-Oost,Single-listing host,1141.0,4.0,1.5,4.0,4.0,4.48,3.0,1141.0,420.21,720.79,720.79
+879597801711211825,Feel at home,Entire home/apt,Oud-Oost,Single-listing host,223.0,1.0,1.0,1.0,2.0,4.0,30.0,223.0,930.2,-707.2,707.2
+5881435,Canal View,Entire home/apt,Centrum-West,Single-listing host,1132.0,2.0,1.0,4.0,4.0,4.47,3.0,1132.0,465.16,666.84,666.84
+1572470593660412228,"Family room, interconnecting double rooms",Private room,De Baarsjes - Oud-West,Small portfolio host,131.0,,,,4.0,2.0,1.0,131.0,739.0,-608.0,608.0
+22581281,Amazing luxurious houseboat city centre.,Entire home/apt,De Pijp - Rivierenbuurt,Single-listing host,970.0,1.0,1.5,1.0,2.0,4.86,2.0,970.0,364.75,605.25,605.25
+2661450,Apartment @ Amsterdam Canals,Entire home/apt,Centrum-West,Single-listing host,1141.0,2.0,1.5,3.0,5.0,5.0,5.0,1141.0,541.65,599.35,599.35
+1609346382872714957,Historic grandeur and canal views,Private room,Centrum-West,Medium portfolio host,1487.0,1.0,1.0,1.0,2.0,,1.0,1487.0,921.91,565.09,565.09
+1397317,Monumental river-house + backyard,Entire home/apt,Oud-Oost,Single-listing host,911.0,2.0,1.0,2.0,4.0,4.77,4.0,911.0,374.36,536.64,536.64
+27850551,Charming City Center apartment along the canal,Private room,Centrum-Oost,Small portfolio host,742.0,,1.0,1.0,3.0,4.58,1.0,742.0,231.18,510.82,510.82
+1481649275340257805,Westerhofje,Entire home/apt,Centrum-West,Single-listing host,1158.0,2.0,1.0,2.0,4.0,4.9,2.0,1158.0,648.48,509.52,509.52
+2977065,Beautiful & light Apt on canal,Entire home/apt,Centrum-West,Single-listing host,852.0,1.0,1.5,1.0,2.0,4.77,3.0,852.0,356.82,495.18,495.18
+1490006458730703009,Wyelle Amsterdam Penthouse (2 bedrooms),Entire home/apt,Centrum-West,Single-listing host,386.0,2.0,1.0,2.0,4.0,5.0,10.0,386.0,873.21,-487.21,487.21
+1058590282228782699,Fijnste plek in de Jordaan,Entire home/apt,Centrum-West,Single-listing host,485.0,4.0,3.0,3.0,4.0,5.0,5.0,485.0,948.51,-463.51,463.51
+588997025010346437,Spacious homely houseboat,Entire home/apt,Centrum-West,Single-listing host,1142.0,2.0,1.0,4.0,7.0,4.5,2.0,1142.0,691.9,450.1,450.1
+36751652,Prinsengracht familyhouse with green garden,Entire home/apt,Centrum-Oost,Small portfolio host,1158.0,3.0,2.5,4.0,5.0,4.5,5.0,1158.0,713.17,444.83,444.83

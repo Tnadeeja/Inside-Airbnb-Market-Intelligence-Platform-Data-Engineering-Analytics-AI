@@ -1,0 +1,7 @@
+metric,value
+mean_error,-9.84
+median_error,-19.76
+mean_absolute_error,88.4
+median_absolute_error,58.41
+max_absolute_error,1578.65
+prediction_count,1295.0

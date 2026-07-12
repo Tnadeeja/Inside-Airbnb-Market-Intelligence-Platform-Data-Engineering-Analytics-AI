@@ -1,0 +1,5 @@
+room_type,listing_count,mean_absolute_error,median_absolute_error,mean_actual_price,mean_predicted_price
+Entire home/apt,956,99.25,69.3,380.92,389.86
+Hotel room,5,100.69,79.85,233.6,309.36
+Private room,331,57.55,33.34,202.39,213.78
+Shared room,3,12.64,5.91,56.67,69.3
