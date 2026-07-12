@@ -640,3 +640,22 @@ This project demonstrates an end-to-end data workflow using real-world Airbnb ma
 It combines data engineering, analytics, statistics, machine learning, responsible AI documentation, and professional repository structure.
 
 The result is a reproducible market intelligence platform that can support business understanding of Airbnb supply, pricing, availability, reviews, host behavior, and neighbourhood performance.
+
+
+## Streamlit Dashboard Preview
+
+The project includes a Streamlit dashboard for interactive market intelligence exploration.
+
+Dashboard pages include:
+
+- Executive Overview
+- Room Type Insights
+- Neighbourhood Insights
+- Host & Review Insights
+- ML Price Prediction
+- AI Innovation & Limitations
+
+Run locally:
+
+```bash
+streamlit run app/streamlit_app.py
