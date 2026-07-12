@@ -160,3 +160,10 @@ python -m src.warehouse.duckdb_builder
 
 - `utils/`  
   Shared helper functions.
+
+  ## Full Pipeline Runner
+
+The full reusable pipeline can be executed from the project root:
+
+```bash
+python -m src.pipeline_runner
