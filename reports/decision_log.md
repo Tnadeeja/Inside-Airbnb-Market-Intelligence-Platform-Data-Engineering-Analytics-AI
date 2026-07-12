@@ -40,3 +40,86 @@ The original host identity for these 96 listings remains unknown. However, assig
 
 **Impact:**  
 The fact table has no missing host keys, and records with incomplete host metadata remain visible for analysis instead of being dropped.
+
+
+---
+
+# 3. Improve `reports/decision_log.md`
+
+Your current decision log is good. Keep your existing content and add these decisions under Decision 003:
+
+```markdown
+---
+
+## Decision 004: Use DuckDB as Local Analytical Warehouse
+
+**Decision:** Use DuckDB as the analytical warehouse for this project.
+
+**Reasoning:**  
+DuckDB is lightweight, fast for analytical queries, works well with parquet files, and is suitable for local data engineering workflows.
+
+**Trade-off:**  
+DuckDB is not a full enterprise cloud warehouse like Snowflake, BigQuery, or Redshift.
+
+**Impact:**  
+The project can build a reproducible local warehouse without external infrastructure.
+
+---
+
+## Decision 005: Build Reusable Source Code Under `src/`
+
+**Decision:** Convert important notebook logic into reusable Python modules under `src/`.
+
+**Reasoning:**  
+Notebook-only projects are harder to reproduce and review. Reusable scripts improve code quality, project structure, and production readiness.
+
+**Trade-off:**  
+This adds extra development time and some repeated logic from notebooks.
+
+**Impact:**  
+The project now supports reusable ingestion, profiling, validation, cleaning, transformation, warehouse, and ML workflows.
+
+---
+
+## Decision 006: Keep Raw Data, Processed Data, Warehouse, and Model Artifacts Out of Git
+
+**Decision:** Do not commit large generated files such as raw datasets, processed parquet files, DuckDB database files, and model artifacts.
+
+**Reasoning:**  
+These files can be large and can be recreated by running the pipeline.
+
+**Trade-off:**  
+A reviewer needs to download the raw data and run the pipeline to recreate generated artifacts.
+
+**Impact:**  
+The repository stays clean, lightweight, and professional.
+
+---
+
+## Decision 007: Use Random Forest as Final Price Prediction Model
+
+**Decision:** Select the Random Forest Regressor as the final machine learning model.
+
+**Reasoning:**  
+It achieved the best overall performance among tested models, with the lowest RMSE and highest R² score.
+
+**Trade-off:**  
+Random Forest is less directly interpretable than simple linear regression.
+
+**Impact:**  
+The final model provides stronger predictive performance while still allowing feature importance analysis.
+
+---
+
+## Decision 008: Document AI Usage and Open Innovation Separately
+
+**Decision:** Create separate documentation for AI usage and open innovation.
+
+**Reasoning:**  
+The assignment evaluates AI and LLM literacy. Clear documentation helps show responsible AI use and future AI potential.
+
+**Trade-off:**  
+The AI assistant is documented as a future concept rather than a fully built application.
+
+**Impact:**  
+The project honestly demonstrates AI literacy, responsible AI awareness, and creativity without overstating implementation.
