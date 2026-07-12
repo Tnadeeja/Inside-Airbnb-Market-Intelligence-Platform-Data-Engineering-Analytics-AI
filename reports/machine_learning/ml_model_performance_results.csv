@@ -1,0 +1,6 @@
+model_name,mae,rmse,r2_score
+Random Forest Regressor,88.4,147.3,0.5009
+Ridge Regression,104.84,155.6,0.443
+Linear Regression,105.1,155.75,0.4419
+Gradient Boosting Regressor,92.96,159.49,0.4148
+Dummy Median Baseline,134.91,213.5,-0.0486
