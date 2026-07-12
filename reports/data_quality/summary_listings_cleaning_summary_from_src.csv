@@ -1,0 +1,10 @@
+metric,value
+total_cleaned_rows,10465
+unique_listing_ids,10465
+missing_listing_ids,0
+duplicate_listing_ids,0
+missing_or_invalid_prices,3994
+valid_price_rows,6471
+invalid_coordinates,0
+listings_with_reviews,9432
+listings_without_reviews,1033
