@@ -29,7 +29,7 @@ MODELS_DIR = PROJECT_ROOT / "models"
 WAREHOUSE_DIR = PROJECT_ROOT / "warehouse"
 NOTEBOOKS_DIR = PROJECT_ROOT / "notebooks"
 SQL_DIR = PROJECT_ROOT / "sql"
-DDL_DIR = PROJECT_ROOT / "ddl"
+DDL_DIR = SQL_DIR / "ddl"
 
 DUCKDB_DATABASE_PATH = WAREHOUSE_DIR / "airbnb_market.duckdb"
 FINAL_MODEL_PATH = MODELS_DIR / "random_forest_price_prediction_model.joblib"
