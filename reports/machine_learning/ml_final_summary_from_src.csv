@@ -1,0 +1,12 @@
+metric,value
+best_model,Random Forest Regressor
+best_model_mae,89.03
+best_model_rmse,153.57
+best_model_r2,0.4574
+baseline_rmse,213.5
+rmse_improvement_vs_baseline,59.93
+rmse_improvement_percentage,28.07
+training_rows,5176
+testing_rows,1295
+input_features_before_encoding,32
+processed_features_after_encoding,124

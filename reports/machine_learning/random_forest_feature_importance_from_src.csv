@@ -1,0 +1,125 @@
+feature,importance
+bedrooms,0.19020753584802974
+review_scores_value,0.14128472714921084
+minimum_nights,0.09102904826147355
+neighbourhood_Centrum-West,0.05454708404967065
+bathrooms,0.05415256657174906
+beds,0.05140034232606507
+neighbourhood_median_price,0.043403022731666435
+amenities_count,0.03073548113242441
+reviews_per_month,0.028751007647576262
+accommodates,0.02497114490891139
+availability_365,0.023039534971623695
+availability_rate,0.021920290700340073
+review_scores_location,0.02086958114619863
+occupancy_proxy,0.018956276459588015
+room_type_Entire home/apt,0.01875130548666305
+weekend_availability_rate,0.01649192870690521
+weekday_availability_rate,0.01525101601528912
+avg_reviews_per_year,0.01471381706355038
+detailed_review_count,0.014485597713305834
+neighbourhood_Zuid,0.011022850422661714
+property_type_Casa particular,0.01065902929845015
+neighbourhood_avg_occupancy_proxy,0.01004352620738419
+number_of_reviews,0.00980714874143707
+detailed_reviews_last_365d,0.009622645795226351
+review_scores_rating,0.008923670143322997
+unique_reviewer_count,0.008135193493380748
+review_scores_cleanliness,0.006799391434107882
+property_type_Entire rental unit,0.005998068442692106
+property_type_Entire home,0.005926038612792561
+host_portfolio_segment_Single-listing Host,0.004156615949188212
+property_type_Boat,0.0033826973728796252
+property_type_Entire loft,0.003237955386792169
+calculated_host_listings_count,0.003136271940704137
+neighbourhood_Oud-Noord,0.0029535579085876854
+property_type_Entire condo,0.0025298604967594483
+property_type_Private room in guesthouse,0.0021808554644773145
+neighbourhood_De Pijp - Rivierenbuurt,0.0021066793493760604
+host_portfolio_segment_Small Portfolio Host,0.0011875945550402001
+availability_segment_Medium Availability,0.0010577880653915232
+property_type_Entire villa,0.001039169450450491
+room_type_Private room,0.0010137616879258326
+availability_segment_High Availability,0.0009700492179867723
+host_is_superhost_false,0.0009152056177320262
+neighbourhood_IJburg - Zeeburgereiland,0.0008830717779432953
+host_is_superhost_true,0.0006747949241324283
+neighbourhood_De Baarsjes - Oud-West,0.0005534492067811516
+neighbourhood_Centrum-Oost,0.0004294886424245179
+host_portfolio_segment_Large Portfolio Host,0.000411562958964232
+property_type_Entire townhouse,0.00039947580018414165
+property_type_Room in hotel,0.00037482427979989067
+neighbourhood_Oud-Oost,0.00035516104629917976
+neighbourhood_Buitenveldert - Zuidas,0.0003192751505746536
+neighbourhood_Oostelijk Havengebied - Indische Buurt,0.00030342637779918243
+property_type_Houseboat,0.00027873377288397733
+neighbourhood_Westerpark,0.0002657999400743608
+neighbourhood_Noord-Oost,0.00024434720467930075
+host_identity_verified_true,0.00023171496234422782
+availability_segment_Low Availability,0.00022093254173588666
+host_portfolio_segment_Medium Portfolio Host,0.00020715940485959968
+neighbourhood_Bijlmer-Centrum,0.0001773037097268949
+property_type_Room in boutique hotel,0.00014342906026210023
+property_type_Private room in rental unit,0.0001250354715228787
+neighbourhood_Slotervaart,0.00011417005180300501
+neighbourhood_Bos en Lommer,0.00011179116455181145
+property_type_Private room in houseboat,0.00011010535281378314
+neighbourhood_Geuzenveld - Slotermeer,0.00010364092293899508
+neighbourhood_Noord-West,9.226190950747894e-05
+host_is_superhost_Missing,7.859119877243588e-05
+room_type_Shared room,7.582808194625533e-05
+property_type_Entire serviced apartment,7.28698297763023e-05
+property_type_Missing,7.155381821347611e-05
+property_type_Private room in home,6.814147520616735e-05
+property_type_Private room in bed and breakfast,5.6663803573791746e-05
+property_type_Private room in boat,5.564439739621998e-05
+host_identity_verified_Missing,5.3364188625125074e-05
+host_identity_verified_missing,4.972933636180581e-05
+instant_bookable_Missing,4.9603145077685345e-05
+property_type_Room in serviced apartment,4.9513334239400634e-05
+host_portfolio_segment_Unknown Host,4.5169351392288816e-05
+neighbourhood_Watergraafsmeer,4.016180576524969e-05
+property_type_Room in aparthotel,3.968861414853502e-05
+host_is_superhost_missing,3.455376584707862e-05
+room_type_Hotel room,3.0463179940278172e-05
+neighbourhood_De Aker - Nieuw Sloten,2.6603159709300563e-05
+instant_bookable_missing,2.549489996468636e-05
+property_type_Tent,2.4026347449319776e-05
+host_identity_verified_false,2.236215893022358e-05
+property_type_Private room in loft,2.097339339690916e-05
+property_type_Room in bed and breakfast,1.876312859877831e-05
+property_type_Entire guest suite,1.5440181655889635e-05
+property_type_Private room in condo,1.4904769381729775e-05
+property_type_Private room in townhouse,1.1830258112330913e-05
+property_type_Entire cabin,1.1366126592648452e-05
+property_type_Entire guesthouse,8.439967307280363e-06
+property_type_Private room in farm stay,4.816729133392934e-06
+neighbourhood_Bijlmer-Oost,4.604575061488294e-06
+property_type_Shared room in hotel,4.414468880227282e-06
+property_type_Tiny home,4.353801483065439e-06
+property_type_Private room in guest suite,2.9865956993626733e-06
+property_type_Entire place,2.6087504456918633e-06
+property_type_Entire vacation home,1.3888882196659518e-06
+neighbourhood_Osdorp,1.34466872380432e-06
+property_type_Shared room in hostel,1.0437492516345616e-06
+neighbourhood_Gaasperdam - Driemond,8.182563913145706e-07
+property_type_Entire cottage,6.58506883776695e-07
+property_type_Private room in hostel,3.0998232433140295e-07
+property_type_Private room in casa particular,2.88276048629545e-07
+property_type_Private room in earthen home,1.6403957170481954e-07
+property_type_Private room in nature lodge,1.4664036199886777e-07
+property_type_Private room,1.2008251808911393e-07
+property_type_Private room in windmill,1.1281390391238902e-07
+property_type_Private room in serviced apartment,8.300918132674953e-08
+property_type_Private room in barn,5.424940605632966e-08
+property_type_Room in heritage hotel,4.8347106395989554e-08
+property_type_Yurt,2.7242726567755106e-10
+property_type_Entire bungalow,0.0
+property_type_Private room in cottage,0.0
+property_type_Private room in cabin,0.0
+property_type_Shepherd’s hut,0.0
+property_type_Shared room in houseboat,0.0
+property_type_Private room in tiny home,0.0
+property_type_Private room in hut,0.0
+property_type_Tower,0.0
+property_type_Private room in villa,0.0
