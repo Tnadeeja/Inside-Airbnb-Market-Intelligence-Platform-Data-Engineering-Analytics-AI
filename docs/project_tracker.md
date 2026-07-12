@@ -133,3 +133,13 @@ Join calendar_listing_metrics into listing_master_base to create a stronger list
 - Final report
 - README finalization
 - AI usage disclosure
+
+## Phase 7 - Repository Hardening and Reusable Pipeline Code
+
+Started converting notebook-based logic into reusable Python modules under `src/`.
+
+Completed:
+- Added project-wide configuration in `src/config.py`
+- Added Python package initialization files
+- Added `src/README.md`
+- Created reusable path constants for data, reports, warehouse, SQL, and model artifacts
