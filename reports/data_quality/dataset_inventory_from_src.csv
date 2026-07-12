@@ -1,0 +1,7 @@
+dataset_name,row_count,column_count,duplicate_row_count
+detailed_listings,10369,90,0
+calendar,3819725,5,0
+detailed_reviews,545162,6,0
+summary_listings,10465,19,0
+summary_reviews,545162,2,22541
+neighbourhoods,22,2,0
